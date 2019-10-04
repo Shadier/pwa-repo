@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "pwa-12121625",
+    "public": "",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
